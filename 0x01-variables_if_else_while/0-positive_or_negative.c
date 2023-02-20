@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - entry point
+ *
  * main description: prints if a number is positive or negative
- * Retun: 0 (Return a number if either positive or negative)
+ *
+ * Retun: Always 0 (success)
 */
-/*main function return positve or negative*/
 int main(void)
 {
 	int n;
