@@ -1,9 +1,14 @@
 #include <stdio.h>
 
-int main(void){
-int a[] = {4, 8, 98, 102};
-int *p:;
-p = &a[0];
+int main(void)
+{
+ /* ...Code for the main function goes here */
+int n;
+int a[5];
+int *p;
+
+a[2] = 1024;
+p = &n;
   /*
    * write your line of code here...
    * Remember:
@@ -12,9 +17,8 @@ p = &a[0];
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-
-printf("a[2] = %d\n", *(p+2)); //added line
-
-
+*(p + 5) = 98;
+  /* ...so that this prints 98\n */
+printf("a[2] = %d\n", a[2]);
 return (0);
 }
